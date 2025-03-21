@@ -17,13 +17,13 @@ export OPENAI_API_KEY=your_openai_api_key
 ```
 3. Start the backend server
 ```bash
-cd backend
+cd back
 pip install -r requirements.txt
 python main.py
 ```
 4. Start the frontend server
 ```bash
-cd frontend
+cd front
 npm install
 npm run serve
 ```
