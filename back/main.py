@@ -6,7 +6,6 @@ import os
 from openai import OpenAI
 from typing import List, Optional
 import asyncio
-from tenacity import retry, stop_after_attempt, wait_exponential
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
